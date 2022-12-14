@@ -1,24 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
   main{
-    width: 800px;
+    width: 100vw;
+    height: 90vh;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+    
+  }
+
+  aside:hover {
+    background-color: #000000;
+    color: #ffff;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: sticky;
+    bottom: 0;
+   
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+
+  button:hover{
+    background-color: #ffff;
+    color: #000000;
   }
